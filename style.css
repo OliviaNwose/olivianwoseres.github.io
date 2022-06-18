@@ -1,0 +1,37 @@
+body{
+    background-color: hsl(0, 100%, 74%);
+    margin-top: 8%;
+ }
+ .container{
+    justify-content: center;
+ }
+ .learn-code{
+    color:white;
+ }
+ .purple{
+    background-color: purple;
+    color:white;
+    border-radius: 5px;
+ }
+ .formdiv{
+    border-radius: 5px;
+ }
+ input{
+    width:100%;
+ }
+ input[type=submit]{
+    background-color:hsl(154, 59%, 51%);
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+  a{
+    color:hsl(0, 100%, 74%) ;
+  }
+  @media only screen and (min-width:  375px) {
+    .learn-code{
+      width:100%    }
+      .other{
+        width:100%;
+      }
+  }
